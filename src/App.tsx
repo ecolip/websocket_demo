@@ -37,7 +37,6 @@ function App() {
     //關閉後執行的動作，會在關閉 WebSocket 後執行
     socket.onclose = (event) => {
       console.log(event, "close");
-      // ws.close();
     };
     setWs(socket);
 
